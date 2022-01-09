@@ -1,0 +1,126 @@
+  Lend
+
+ Checking for Lend Test Case 1
+BEFORE ATTACK:
+pool.state.x:  2672755606932368492495248164610047
+pool.state.y:  426168302400263030481000000000000
+pool.state.z  2036948453893962469398454036153
+Attacker asset balanceOf:  BigNumber { value: "10000" }
+Attacker collateral balanceOf:  BigNumber { value: "10000" }
+AFTER ATTACK:
+pool.state.x:  2672755606932368492495248164610048
+pool.state.y:  5192296858534827628530496329220095
+pool.state.z  2036948453893962469398454036154
+Attacker asset balanceOf:  BigNumber { value: "9999" }
+Attacker collateral balanceOf:  BigNumber { value: "9998" }
+
+ Checking for Lend Test Case 2
+BEFORE ATTACK:
+pool.state.x:  2926225920526457248660248164610047
+pool.state.y:  103201820037508426209000000000000
+pool.state.z  32929887241074010962085252030670
+Attacker asset balanceOf:  BigNumber { value: "10000" }
+Attacker collateral balanceOf:  BigNumber { value: "10000" }
+AFTER ATTACK:
+pool.state.x:  2926225920526457248660248164610048
+pool.state.y:  5192296858534827628530496329220095
+pool.state.z  32929887241074010962085252030671
+Attacker asset balanceOf:  BigNumber { value: "9999" }
+Attacker collateral balanceOf:  BigNumber { value: "9998" }
+
+ Checking for Lend Test Case 3
+BEFORE ATTACK:
+pool.state.x:  4366872798825357889815248164610047
+pool.state.y:  433705190079207279177000000000000
+pool.state.z  35808339841221452541382962560234
+Attacker asset balanceOf:  BigNumber { value: "10000" }
+Attacker collateral balanceOf:  BigNumber { value: "10000" }
+AFTER ATTACK:
+pool.state.x:  4366872798825357889815248164610048
+pool.state.y:  5192296858534827628530496329220095
+pool.state.z  35808339841221452541382962560235
+Attacker asset balanceOf:  BigNumber { value: "9999" }
+Attacker collateral balanceOf:  BigNumber { value: "9998" }
+
+ Checking for Lend Test Case 4
+BEFORE ATTACK:
+pool.state.x:  3620106603797390348465248164610047
+pool.state.y:  378532415799082693458000000000000
+pool.state.z  11670480034777793173208264333907
+Attacker asset balanceOf:  BigNumber { value: "10000" }
+Attacker collateral balanceOf:  BigNumber { value: "10000" }
+AFTER ATTACK:
+pool.state.x:  3620106603797390348465248164610048
+pool.state.y:  5192296858534827628530496329220095
+pool.state.z  11670480034777793173208264333908
+Attacker asset balanceOf:  BigNumber { value: "9999" }
+Attacker collateral balanceOf:  BigNumber { value: "9998" }
+
+ Checking for Lend Test Case 5
+BEFORE ATTACK:
+pool.state.x:  2662507715575117566940248164610047
+pool.state.y:  413373138458006025009000000000000
+pool.state.z  19478179889940112117789196118527
+Attacker asset balanceOf:  BigNumber { value: "10000" }
+Attacker collateral balanceOf:  BigNumber { value: "10000" }
+AFTER ATTACK:
+pool.state.x:  2662507715575117566940248164610048
+pool.state.y:  5192296858534827628530496329220095
+pool.state.z  19478179889940112117789196118528
+Attacker asset balanceOf:  BigNumber { value: "9999" }
+Attacker collateral balanceOf:  BigNumber { value: "9998" }
+
+ Checking for Lend Test Case 6
+BEFORE ATTACK:
+pool.state.x:  3736716165235809209765248164610047
+pool.state.y:  450634971844004535747000000000000
+pool.state.z  9548041925215331609485467267177
+Attacker asset balanceOf:  BigNumber { value: "10000" }
+Attacker collateral balanceOf:  BigNumber { value: "10000" }
+AFTER ATTACK:
+pool.state.x:  3736716165235809209765248164610048
+pool.state.y:  5192296858534827628530496329220095
+pool.state.z  9548041925215331609485467267178
+Attacker asset balanceOf:  BigNumber { value: "9999" }
+Attacker collateral balanceOf:  BigNumber { value: "9998" }
+
+ Checking for Lend Test Case 7
+Lending transaction expected to revert; check for failure
+Transaction reverted
+
+ Checking for Lend Test Case 8
+BEFORE ATTACK:
+pool.state.x:  3377004771262146426565248164610047
+pool.state.y:  385853149026233846586000000000000
+pool.state.z  5044083655048482984903408379867
+Attacker asset balanceOf:  BigNumber { value: "10000" }
+Attacker collateral balanceOf:  BigNumber { value: "10000" }
+AFTER ATTACK:
+pool.state.x:  3377004771262146426565248164610048
+pool.state.y:  5192296858534827628530496329220095
+pool.state.z  5044083655048482984903408379868
+Attacker asset balanceOf:  BigNumber { value: "9999" }
+Attacker collateral balanceOf:  BigNumber { value: "9998" }
+
+ Checking for Lend Test Case 9
+BEFORE ATTACK:
+pool.state.x:  4586803450413416882365248164610047
+pool.state.y:  260644226279974538211000000000000
+pool.state.z  16584165020703490215880507475395
+Attacker asset balanceOf:  BigNumber { value: "10000" }
+Attacker collateral balanceOf:  BigNumber { value: "10000" }
+AFTER ATTACK:
+pool.state.x:  4586803450413416882365248164610048
+pool.state.y:  5192296858534827628530496329220095
+pool.state.z  16584165020703490215880507475396
+Attacker asset balanceOf:  BigNumber { value: "9999" }
+Attacker collateral balanceOf:  BigNumber { value: "9998" }
+
+ Checking for Lend Test Case 10
+Lending transaction expected to revert; check for failure
+Transaction reverted
+    ✓  (6341ms)
+
+
+  1 passing (7s)
+
