@@ -33,7 +33,7 @@ describe('Lend', () => {
       let pairSim: any
       let updatedMaturity: any
       const currentBlockTime = await now()
-      updatedMaturity = currentBlockTime + 864000n
+      updatedMaturity = currentBlockTime + 30000000n
       const constructor = await constructorFixture(assetInValue, collateralInValue, updatedMaturity)
       let mint: any
       const mintParameters: MintParams = {
